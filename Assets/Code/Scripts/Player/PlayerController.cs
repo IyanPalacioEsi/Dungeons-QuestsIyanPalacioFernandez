@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //El jugador se mueve a una velocidad dada en X, y la velocidad que ya tuviera en Y
-        _theRB.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, _theRB.velocity.y);
+        _theRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * moveSpeed, _theRB.velocity.y);
 
         //La variable isGrounded se hará true siempre que el círculo físico que hemos creado detecte suelo, sino será falsa
         //OverlapCircle(punto donde se genera el círculo, radio del círculo, layer a detectar)
