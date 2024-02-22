@@ -8,10 +8,19 @@ public class PlayerHealthController : MonoBehaviour
     //[HideInInspector] -> es un atributo de la variable que me permite que una variable no sea visible en el editor de Unity pero se mantenga pública
     [HideInInspector] public int currentHealth;
     public int maxHealth;
+    //Referencia al UIController
+    private UIController _uiReference;
+
+    //Referencia al PlayerController
+    private PlayerController _pCReference;
 
     // Start is called before the first frame update
     void Start()
     {
+        //Inicializamos la referencia de UIController
+        _uiReference = GameObject.Find("Canvas").GetComponent<UIController>();
+        //Inicializamos la referencia al PlayerController
+        _pCReference = GetComponent<PlayerController>();
         //Inicializamos la vida del jugador
         currentHealth = maxHealth;
     }
@@ -37,5 +46,14 @@ public class PlayerHealthController : MonoBehaviour
             //Hacemos desaparecer de momento al jugador
             gameObject.SetActive(false);
         }
+        //Si el jugador ha recibido daño pero no ha muerto
+        else
+        {
+            //Llamamos al método que hace que el jugador realice el KnockBack
+            _pCReference.Knockback();
+        }
+
+        //Actualizar la UI (los corazones)
+        _uiReference.UpdateHealthDisplay();
     }
 }
