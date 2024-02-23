@@ -105,6 +105,6 @@ public class PlayerController : MonoBehaviour
         //Paralizamos al jugador en X y hacemos que salte en Y
         _theRB.velocity = new Vector2(0f, knockBackForce);
         //Cambiamos el valor del parámetro del Animator "hurt"
-        _anim.SetTrigger("hurt");
+        _anim.SetTrigger("Hurt");
     }
 }
