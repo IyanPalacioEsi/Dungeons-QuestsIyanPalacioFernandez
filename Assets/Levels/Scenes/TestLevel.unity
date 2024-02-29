@@ -31592,6 +31592,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5159540378658327173, guid: 091983bab4dfbb84588452d007aea4c6, type: 3}
+      propertyPath: deathEffect
+      value: 
+      objectReference: {fileID: 1225309178902297599, guid: 038710ea315f97042b8c203e9206e815, type: 3}
     - target: {fileID: 5354129659574449548, guid: 091983bab4dfbb84588452d007aea4c6, type: 3}
       propertyPath: m_Name
       value: EnemySlime (1)
