@@ -32,6 +32,8 @@ public class PlayerController : MonoBehaviour
     //Referencia al SpriteRenderer del jugador
     private SpriteRenderer _theSR;
 
+    public float bounceForce;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -106,5 +108,12 @@ public class PlayerController : MonoBehaviour
         _theRB.velocity = new Vector2(0f, knockBackForce);
         //Cambiamos el valor del parámetro del Animator "hurt"
         _anim.SetTrigger("Hurt");
+    }
+
+    //Método para que el jugador rebote
+    public void Bounce()
+    {
+        //Impulsamos al jugador rebotando
+        _theRB.velocity = new Vector2(_theRB.velocity.x, bounceForce);
     }
 }
