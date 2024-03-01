@@ -74,9 +74,9 @@ GameObject:
   - component: {fileID: 608387494171350180}
   - component: {fileID: 611849041073823251}
   - component: {fileID: 5400300361309488574}
-  - component: {fileID: 1672307976135770123}
   - component: {fileID: 2208653377152498600}
   - component: {fileID: 5159540378658327173}
+  - component: {fileID: 5457612524900587849}
   m_Layer: 0
   m_Name: EnemySlime
   m_TagString: Untagged
@@ -195,24 +195,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
---- !u!114 &1672307976135770123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5354129659574449548}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcc4157eaf1f1c343927bfe7b276aeba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
-  leftPoint: {fileID: 6661070870245020535}
-  rightPoint: {fileID: 862568117257108610}
-  movingRight: 1
-  moveTime: 3.75
-  waitTime: 1
 --- !u!114 &2208653377152498600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,7 +219,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 685560c1f894806479619d62011c9008, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathEffect: {fileID: 0}
+  deathEffect: {fileID: 1225309178902297599, guid: 038710ea315f97042b8c203e9206e815, type: 3}
+--- !u!114 &5457612524900587849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5354129659574449548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc4157eaf1f1c343927bfe7b276aeba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  leftPoint: {fileID: 0}
+  rightPoint: {fileID: 0}
+  movingRight: 1
+  moveTime: 3.75
+  waitTime: 1
 --- !u!1 &8639751980532702293
 GameObject:
   m_ObjectHideFlags: 0

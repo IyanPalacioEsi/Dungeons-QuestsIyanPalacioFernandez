@@ -22,6 +22,10 @@ public class PlayerHealthController : MonoBehaviour
     //Referencia al LevelManager
     private LevelManager _lReference;
 
+    public GameObject deahtEffect;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -67,7 +71,10 @@ public class PlayerHealthController : MonoBehaviour
             {
                 //Hacemos que la vida se ponga a cero si se queda en negativo
                 currentHealth = 0;
+                //Instanciamos el objeto de muerte
+                Instantiate(deahtEffect, transform.position, transform.rotation);
 
+                //Destroy(deahtEffect, 1f);
                 ////Hacemos desaparecer de momento al jugador
                 //gameObject.SetActive(false);
                 //Llamamos al método del LevelManager que respawnea al jugador
@@ -89,5 +96,6 @@ public class PlayerHealthController : MonoBehaviour
         }
 
     }
+
 
 }

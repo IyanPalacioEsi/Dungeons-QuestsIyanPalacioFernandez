@@ -104,6 +104,8 @@ public class SlimeController : MonoBehaviour
 
             //Animación de espera del enemigo
             _anim.SetBool("isMoving", false);
+
+
         }
     }
 }
