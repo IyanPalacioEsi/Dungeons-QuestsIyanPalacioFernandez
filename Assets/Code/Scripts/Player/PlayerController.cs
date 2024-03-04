@@ -24,6 +24,9 @@ public class PlayerController : MonoBehaviour
     public float knockBackLength; //Variable que nos sirve para rellenar el contador
     private float knockBackCounter; //Contador de tiempo
 
+    //Variable para saber hacia donde mira el jugador
+    public bool seeLeft = true;
+
     //El rigidbody del jugador
     //Barrabaja indica que la variable es privada
     private Rigidbody2D _theRB;
@@ -87,12 +90,16 @@ public class PlayerController : MonoBehaviour
         {
             //No cambiamos la dirección del sprite
             _theSR.flipX = false;
+
+            seeLeft = true;
         }
         //Si el jugador se mueve hacia la derecha
         else if(_theRB.velocity.x > 0)
         {
             //Cambiamos la dirección del sprite
             _theSR.flipX = true;
+
+            seeLeft = false;
         }
 
         //ANIMACIONES DEL JUGADOR

@@ -21,7 +21,7 @@ public class PlayerHealthController : MonoBehaviour
     private SpriteRenderer _sR;
     //Referencia al LevelManager
     private LevelManager _lReference;
-
+    //Referencia al efecto de muerte del jugador
     public GameObject deahtEffect;
 
 
@@ -71,9 +71,10 @@ public class PlayerHealthController : MonoBehaviour
             {
                 //Hacemos que la vida se ponga a cero si se queda en negativo
                 currentHealth = 0;
-                //Instanciamos el objeto de muerte
-                Instantiate(deahtEffect, transform.position, transform.rotation);
-
+                //Instanciamos el efecto de muerte del jugador
+                GameObject instance = Instantiate(deahtEffect, transform.position, transform.rotation);
+                //Le decimos hacia donde miraba el jugador
+                instance.GetComponent<PlayerDeath>().wasSeeLeft = GetComponent<PlayerController>().seeLeft;
                 //Destroy(deahtEffect, 1f);
                 ////Hacemos desaparecer de momento al jugador
                 //gameObject.SetActive(false);
