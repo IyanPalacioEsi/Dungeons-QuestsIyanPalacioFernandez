@@ -10,8 +10,13 @@ public class UIController : MonoBehaviour
     //Referencias a los sprites que cambiarán al perder o ganar un corazón
     public Sprite heartFull, heartEmpty;
 
+    //Referencia al texto de las gemas de la UI
+    public TextMeshProUGUI gemText;
+
     //Referencia al Script que controla la vida del jugador
     private PlayerHealthController _pHReference;
+    //Referencia al LevelManager
+    private LevelManager _lMReference;
 
     // Start is called before the first frame update
     void Start()
@@ -74,5 +79,12 @@ public class UIController : MonoBehaviour
                 break;
         }
 
+    }
+
+    public void UpdateGemCount()
+    {
+        //Actualizar el número de gemas recogidas
+        //Cast -> convertimos el número entero en texto para que pueda ser representado en la UI
+        gemText.text = _lMReference.gemCollected.ToString();
     }
 }
