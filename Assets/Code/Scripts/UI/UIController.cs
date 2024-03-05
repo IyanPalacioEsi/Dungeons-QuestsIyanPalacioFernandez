@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI; //Para poder trabajar con elementos de la UI
+using TMPro;
 
 public class UIController : MonoBehaviour
 {
