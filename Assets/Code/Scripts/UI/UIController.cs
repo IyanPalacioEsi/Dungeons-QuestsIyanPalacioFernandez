@@ -26,6 +26,10 @@ public class UIController : MonoBehaviour
         //Con GameObject.Find buscamos el objeto jugador en la escena
         //Con GetComponent obtenemos el código que necesitamos (el componente) del objeto jugador
         _pHReference = GameObject.Find("Player").GetComponent<PlayerHealthController>();
+        //Inicializamos la referencia al LevelManager
+        _lMReference = GameObject.Find("LevelManager").GetComponent<LevelManager>();
+        //Inicializamos el contador de gemas
+        UpdateGemCount();
     }
 
     //Método para actualizar la vida en la UI
