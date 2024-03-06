@@ -98,5 +98,13 @@ public class PlayerHealthController : MonoBehaviour
 
     }
 
+    //Metodo para curar al jugador
+
+    public void HealPlayer()
+    {
+        //Curamos al jugador a su vida maxima
+       
+
+    }
 
 }

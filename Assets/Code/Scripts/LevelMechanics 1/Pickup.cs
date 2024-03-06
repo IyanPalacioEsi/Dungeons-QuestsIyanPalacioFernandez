@@ -17,6 +17,7 @@ public class Pickup : MonoBehaviour
     private LevelManager _lMReference;
     //Referencian al UIController
     private UIController _uIReference;
+    // Referencia al PlayerHealthController
 
     private void Start()
     {
@@ -39,6 +40,18 @@ public class Pickup : MonoBehaviour
                 _lMReference.gemCollected++;
                 //Actualizamos el contador en la UI
                 _uIReference.UpdateGemCount();
+                //Le decimos que el objeto ha sido recogido
+                _isCollected = true;
+                //Instanciamos el efecto de recogida
+                Instantiate(pickupEffect, transform.position, transform.rotation);
+                //Destruimos el objeto
+                Destroy(gameObject);
+            }
+
+            //Si el objeto en este caso es una cura
+            if (isHeal)
+            {
+                
                 //Le decimos que el objeto ha sido recogido
                 _isCollected = true;
                 //Instanciamos el efecto de recogida
