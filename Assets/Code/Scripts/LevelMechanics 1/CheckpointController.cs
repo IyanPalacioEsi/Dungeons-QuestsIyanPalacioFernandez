@@ -29,6 +29,7 @@ public class CheckpointController : MonoBehaviour
         //Hacemos un bucle que pase por todos los checkpoints almacenados en el array
         foreach(Checkpoint c in _checkpoints)
         {
+            
             //Hace el método de resetear ese Checkpoint concreto
             c.ResetCheckpoint();
         }

@@ -14,5 +14,7 @@ public class EnemyDeath : MonoBehaviour
         transform.gameObject.SetActive(false);
         //Instanciamos el efecto de muerte del enemigo en la posición del primer hijo
         Instantiate(deathEffect, transform.GetChild(0).position, transform.GetChild(0).rotation);
+        //Llamamos al método del Singleton de AudioManager que reproduce el sonido
+        AudioManager.audioMReference.PlaySFX(3);
     }
 }

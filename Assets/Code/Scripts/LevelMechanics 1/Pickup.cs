@@ -17,7 +17,8 @@ public class Pickup : MonoBehaviour
     private LevelManager _lMReference;
     //Referencian al UIController
     private UIController _uIReference;
-    // Referencia al PlayerHealthController
+    //Referencia al PlayerHealthController
+    private PlayerHealthController _pHReference;
 
     private void Start()
     {
@@ -25,6 +26,8 @@ public class Pickup : MonoBehaviour
         _lMReference = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         //Inicializamos la referencia al UIController
         _uIReference = GameObject.Find("Canvas").GetComponent<UIController>();
+        //Inicializamos la referencia al PlayerHealthController
+        _pHReference = GameObject.Find("Player").GetComponent<PlayerHealthController>();
     }
 
     //Método para interactuar con los objetos al entrar en su zona
@@ -42,6 +45,8 @@ public class Pickup : MonoBehaviour
                 _uIReference.UpdateGemCount();
                 //Le decimos que el objeto ha sido recogido
                 _isCollected = true;
+                //Llamamos al método del Singleton de AudioManager que reproduce el sonido
+                AudioManager.audioMReference.PlaySFX(6);
                 //Instanciamos el efecto de recogida
                 Instantiate(pickupEffect, transform.position, transform.rotation);
                 //Destruimos el objeto
@@ -51,13 +56,21 @@ public class Pickup : MonoBehaviour
             //Si el objeto en este caso es una cura
             if (isHeal)
             {
-                
-                //Le decimos que el objeto ha sido recogido
-                _isCollected = true;
-                //Instanciamos el efecto de recogida
-                Instantiate(pickupEffect, transform.position, transform.rotation);
-                //Destruimos el objeto
-                Destroy(gameObject);
+                //Si el jugador no tiene la vida al máximo
+                if (_pHReference.currentHealth != _pHReference.maxHealth)
+                {
+                    //Hacemos el método que cura la vida del jugador
+                    _pHReference.HealPlayer();
+                    //Le decimos que el objeto ha sido recogido
+                    _isCollected = true;
+                    //Llamamos al método del Singleton de AudioManager que reproduce el sonido
+                    AudioManager.audioMReference.PlaySFX(7);
+                    //Instanciamos el efecto de recogida
+                    Instantiate(pickupEffect, transform.position, transform.rotation);
+                    //Destruimos el objeto
+                    Destroy(gameObject);
+                }
+
             }
         }
     }

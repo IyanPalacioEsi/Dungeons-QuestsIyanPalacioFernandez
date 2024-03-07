@@ -13,6 +13,9 @@ public class PlayerHealthController : MonoBehaviour
     public float invincibleLength; //Me sirve para rellenar el contador
     private float _invincibleCounter; //Contador de tiempo
 
+    //Referencia al efecto de muerte del jugador
+    public GameObject deahtEffect;
+
     //Referencia al UIController
     private UIController _uIReference;
     //Referencia al PlayerController
@@ -21,8 +24,7 @@ public class PlayerHealthController : MonoBehaviour
     private SpriteRenderer _sR;
     //Referencia al LevelManager
     private LevelManager _lReference;
-    //Referencia al efecto de muerte del jugador
-    public GameObject deahtEffect;
+    
 
 
 
@@ -71,6 +73,8 @@ public class PlayerHealthController : MonoBehaviour
             {
                 //Hacemos que la vida se ponga a cero si se queda en negativo
                 currentHealth = 0;
+                //Llamamos al método del Singleton de AudioManager que reproduce el sonido
+                AudioManager.audioMReference.PlaySFX(8);
                 //Instanciamos el efecto de muerte del jugador
                 GameObject instance = Instantiate(deahtEffect, transform.position, transform.rotation);
                 //Le decimos hacia donde miraba el jugador
@@ -102,8 +106,18 @@ public class PlayerHealthController : MonoBehaviour
 
     public void HealPlayer()
     {
-        //Curamos al jugador a su vida maxima
-       
+        //Curamos al jugador a su vida máxima
+        //currentHealth = maxHealth;
+
+        //Sumamos 1 a la vida del jugador
+        currentHealth++;
+        //Si la vida actual es mayor que la vida máxima
+        if (currentHealth > maxHealth)
+            //Hacemos que la vida del jugador vuelva a la máxima
+            currentHealth = maxHealth;
+        //Actualizamos la UI (los corazones)
+        _uIReference.UpdateHealthDisplay();
+
 
     }
 
