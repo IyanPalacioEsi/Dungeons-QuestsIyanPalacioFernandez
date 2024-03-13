@@ -172,8 +172,8 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64
-  knockBackForce: 0
-  knockBackLength: 0
+  knockBackForce: 8
+  knockBackLength: 0.25
   seeLeft: 1
   bounceForce: 0
 --- !u!95 &3853818495169609570
@@ -211,8 +211,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHealth: 0
   maxHealth: 3
-  invincibleLength: 0
-  deahtEffect: {fileID: 0}
+  invincibleLength: 1
+  deahtEffect: {fileID: 4999668719048515841, guid: c863a397c8638ad41bb106273b64a91e, type: 3}
 --- !u!114 &1159690470190845736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b764cd0248d9e6148a3b77479606e8db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackKey: 323
+  attackKey: 113
   anim: {fileID: 3853818495169609570}
 --- !u!1 &3755770065506650049
 GameObject:
@@ -237,6 +237,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3632903675502191040}
   - component: {fileID: 835078841055680162}
+  - component: {fileID: 2871973237094084702}
   m_Layer: 0
   m_Name: Stompbox
   m_TagString: Untagged
@@ -271,6 +272,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9db78aeebd7f1d74197966d8e7737bf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &2871973237094084702
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3755770065506650049}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &5388357986822555530
 GameObject:
   m_ObjectHideFlags: 0
