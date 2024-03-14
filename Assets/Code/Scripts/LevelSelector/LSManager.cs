@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; //Nos permite trabajar con las escenas
 
 public class LSManager : MonoBehaviour
 {
@@ -32,6 +33,6 @@ public class LSManager : MonoBehaviour
         //Esperamos un tiempo determinado
         yield return new WaitForSeconds(1f);
         //Cargamos el nivel al que queremos ir
-        
+        SceneManager.LoadScene(_lS.currentPoint.levelToLoad);
     }
 }
