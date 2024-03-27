@@ -1,0 +1,2252 @@
+fileFormatVersion: 2
+guid: a6ae215f631479449907dfb7bf79064c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 309
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4aa1bbc65f1fb447a1271e7f3760c2f
+      internalID: -1399922568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 309
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f714c79547b6c5944aedb18c60018613
+      internalID: 315085941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 309
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b89598f502020a4b9e71bb4231d81a9
+      internalID: 187376397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 309
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7b82953aadd654e9e1816a6ec73dce
+      internalID: 1339763306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_4
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 309
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134177b48d9d3b343be7078d13ee0e6a
+      internalID: -1742687077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 309
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bc7ebbbaedf3842b699fcb46fbf099
+      internalID: 2046679101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_6
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 309
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4647acbd874494a9efcabb249d6d99
+      internalID: 2074752787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_7
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 309
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76c7bf2da450644aa27eed0b2ea19cd
+      internalID: -1865681187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_8
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 309
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40767f547f054cb47a2ebcdf17a31147
+      internalID: 101729457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_9
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 309
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5e9aaf006265047a724bcd83b5d8d2
+      internalID: 285869934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_10
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 309
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72041475cb09206468c820ccc6d2c29c
+      internalID: 1867421077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_11
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 309
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989c9fb842225df4e89ae8d383a2edf7
+      internalID: -1104874417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 268
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375a32e89a79a414e87ef249b1216590
+      internalID: 768155987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_13
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 268
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24735c7d276ddc349b792492d69f5165
+      internalID: 2007126288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_14
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 268
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb54ee994d963d40b720a7570b00cfd
+      internalID: -211594095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_15
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 268
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcdf269bd0451844a87cc656fcd39e6
+      internalID: -90926509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_16
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 268
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9f07a7794b5f84a991feb72bf800ef
+      internalID: -1190947199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 268
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8cd910ab10bc54d938015469c9248d
+      internalID: 1297986487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_18
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 268
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb6d9996ba3beb4aa032c56037b6e54
+      internalID: -1231539744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_19
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 268
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c117b502f21e943a083577c0a15115
+      internalID: 1180871456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_20
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 268
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dab9d7cef879f44a06d9a379408260
+      internalID: -658805759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_21
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 268
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55706f047d3e8d648be40cc338f83f5e
+      internalID: -181307651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_22
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 268
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9002e9273293f479342ee5c187d783
+      internalID: -2028638946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_23
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 268
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba885e9e7afe5c64585cc799aa9fc89a
+      internalID: 92855203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 227
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c2a40f82ce0eb4a868caf625a3b593
+      internalID: -1343589899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 227
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1e0c5074f493742a3590b74610018a
+      internalID: 1757973482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_26
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 227
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11aa331aace32349ac8f398cf22e078
+      internalID: 994509313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_27
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 227
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33763718e937724d8a18656ea29d9ed
+      internalID: -703860540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_28
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 227
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d879d733491b66448d72aac6ad25df6
+      internalID: -1160542160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_29
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 227
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7003ba686f32f49867a252ec66f5d0
+      internalID: -1763181573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_30
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 227
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82f845a2e619f84485a63390bdf55e4
+      internalID: 797876720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_31
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 227
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0355482c4bca7184ea8616eedfca7a9e
+      internalID: -431007377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_32
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 227
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8d492ca286e53449104008ca37f3e0
+      internalID: -2121403599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_33
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 227
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3836ffd9cc21c3f49a0ee260bf014071
+      internalID: -167895051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_34
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 227
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026e31b24fc3fad4a9e848901c12ec9b
+      internalID: -1946021241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_35
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 227
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fdb9af62c6c4b40930a9ba14086e31
+      internalID: -1247789782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 186
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579fa2fc4c8ffa64093d394a6416ce6e
+      internalID: 1602265451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_37
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 186
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec82613c419fcfa48800293a0a13f591
+      internalID: 1605531754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_38
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 186
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f5772b995e7a54d89170329f6a3ceb
+      internalID: -1404582750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_39
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 186
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3953520a2e07eca4f944b8e2b475ab46
+      internalID: -612265219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_40
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 186
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896a2054fb85bae46b8c8268ac00e80d
+      internalID: -1901462333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_41
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 186
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d64a0f3c1b13e48b8e4d09d43fe8e4
+      internalID: -758626777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_42
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 186
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e261f236ee9317438e6a553092f938d
+      internalID: 1938891270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_43
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 186
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126aa8251a6857c4f8d4cf2d08915b46
+      internalID: 444051831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_44
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 186
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e61cc3b780cab84596efdabe0d4022b
+      internalID: -644652355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_45
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 186
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a961e728c717494a9358d5f92e8052b
+      internalID: 262670464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_46
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 186
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7302638dbf1ed4b40a71e90969042fdc
+      internalID: -754228346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_47
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 186
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23fb81d632ecf041bb9fbc728623a94
+      internalID: 1280140262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fee681755473a94390c3c6a8b63c95e
+      internalID: 1805969831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_49
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 145
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1592d879769fe74448a3b7921eb0982c
+      internalID: -55283617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_50
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 145
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c1f931931fddc44986215cdcf5ce45
+      internalID: 2008933144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_51
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 145
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee8ab01a9f97504a9198aa5a20a03ba
+      internalID: 2055255385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_52
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 145
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86da16f0c52e6b8498af9e2642b5ce7b
+      internalID: -1382225779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_53
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 145
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6c7896013e63e488b3adb52b6b131a
+      internalID: 453001749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_54
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 145
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddc4ff35b5c3414296040380eccd998
+      internalID: -1558076533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_55
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 145
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703061bfdc058c64eb61b2e5cd5c1d9b
+      internalID: -1107658500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_56
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 145
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb13146db9dab5644a02d7f62683a1f3
+      internalID: 356041362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_57
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 145
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545de3ea8d6cbc143a914f0eac4d7fd0
+      internalID: 1070746916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_58
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 145
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4be45a0e62de8c408a18cfb91acac7b
+      internalID: 569818092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_59
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 145
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7863f3243c064f4cb653b16b11b8c5a
+      internalID: 294932049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df06c5e67b07de42b2d24879a3a0b4e
+      internalID: -2019697946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_61
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 104
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19fb55053f0f4d4f9bf4c81cfef5393
+      internalID: -1720638930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_62
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 104
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f2d879e0ff57e4d96cb47eca2c1b11
+      internalID: 833155903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_63
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 104
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7ccaf755b30004eadb36ebd345c9dd
+      internalID: 1779717593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_64
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 104
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a165bd186634b124cb189b9805839f4f
+      internalID: -1001648792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_65
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 104
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc7376040daf354488eacb34b137fa9
+      internalID: -1060888620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_66
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 104
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc24af649827f9246a1ebb1f466b9d31
+      internalID: -1272216465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_67
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 104
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db9af6691ba50d449228f0db84891ae
+      internalID: -72625583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_68
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 104
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e45504436c0a37498a29a8f75bfeb42
+      internalID: 346395853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_69
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 104
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4786926f2172fd8408722bb1dc893ce0
+      internalID: -262068437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_70
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 104
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad39872d3ef97047a9b910374c7e7a8
+      internalID: -1784910365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_71
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 104
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30ca12661421e34e900d1f9647be945
+      internalID: 1527575049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbaf995b5e1664540b1b2be25cc32255
+      internalID: -1236289089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_73
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 63
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29d2511544d9ae42a03440d6214cfb2
+      internalID: 1620772992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_74
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 63
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c7033d7ec68b4458eb226415f7fe8b
+      internalID: 1729946111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_75
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 63
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b056536d46e014991a88531e348309
+      internalID: -1657151868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_76
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 63
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f6165e3b71f2647badbc9eef2b6972
+      internalID: 1230651278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_77
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 63
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7834d3bde70244abd60c1cb4b7a1d2
+      internalID: 467412976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_78
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 63
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da43b7c349753d044aec0ddc4ed97459
+      internalID: 324985373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_79
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 63
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c034c3e4b11f724ca31075e2be80a51
+      internalID: 84242887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_80
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 63
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4451f5851129f904fa605d93883efbe1
+      internalID: 1002007614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_81
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 63
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7afe144649448940a0d39f890e02667
+      internalID: -2057636012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_82
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 63
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9270211437bd540b6e24e00e660ee1
+      internalID: 88278989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_83
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 63
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617b51338b8397d41a36119ee12303cd
+      internalID: 2009467933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443f51d35de896b45a2034012959acc2
+      internalID: -208174854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_85
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 22
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f735f69e6b50fa4dbb09cd9e14c0c99
+      internalID: -937635679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_86
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 22
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1cb7fafab150943a0e514bf8dd7998
+      internalID: 1195633654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_87
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 22
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ea4ed31c9c36748b4b373757ec4497
+      internalID: -745372938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_88
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 22
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18aaffda983d90347a8885eb0595c0f2
+      internalID: -522593497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_89
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 22
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05a16edf13ef0e42ae69b16e3ef9cfe
+      internalID: 648364680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_90
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 22
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038ea3215480cc4488071639e4979287
+      internalID: -898786389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_91
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 22
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3738d7af9117b9e4cbc62ad13677a35a
+      internalID: -121398879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_92
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 22
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b6c170a400ac54ebe47999c53cf8a6
+      internalID: 566010559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_93
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 22
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413b1b5575c168049a86a0ae6f809502
+      internalID: 798619760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_94
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 22
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fa4e262cbe3f7498fa8dcbabc6b0f7
+      internalID: 1654029740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickOldOvergrown0026_1_350_95
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 22
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31358f9f79996c43862f14aebe2f3f2
+      internalID: -1795582823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BrickOldOvergrown0026_1_350_0: -1399922568
+      BrickOldOvergrown0026_1_350_1: 315085941
+      BrickOldOvergrown0026_1_350_10: 1867421077
+      BrickOldOvergrown0026_1_350_11: -1104874417
+      BrickOldOvergrown0026_1_350_12: 768155987
+      BrickOldOvergrown0026_1_350_13: 2007126288
+      BrickOldOvergrown0026_1_350_14: -211594095
+      BrickOldOvergrown0026_1_350_15: -90926509
+      BrickOldOvergrown0026_1_350_16: -1190947199
+      BrickOldOvergrown0026_1_350_17: 1297986487
+      BrickOldOvergrown0026_1_350_18: -1231539744
+      BrickOldOvergrown0026_1_350_19: 1180871456
+      BrickOldOvergrown0026_1_350_2: 187376397
+      BrickOldOvergrown0026_1_350_20: -658805759
+      BrickOldOvergrown0026_1_350_21: -181307651
+      BrickOldOvergrown0026_1_350_22: -2028638946
+      BrickOldOvergrown0026_1_350_23: 92855203
+      BrickOldOvergrown0026_1_350_24: -1343589899
+      BrickOldOvergrown0026_1_350_25: 1757973482
+      BrickOldOvergrown0026_1_350_26: 994509313
+      BrickOldOvergrown0026_1_350_27: -703860540
+      BrickOldOvergrown0026_1_350_28: -1160542160
+      BrickOldOvergrown0026_1_350_29: -1763181573
+      BrickOldOvergrown0026_1_350_3: 1339763306
+      BrickOldOvergrown0026_1_350_30: 797876720
+      BrickOldOvergrown0026_1_350_31: -431007377
+      BrickOldOvergrown0026_1_350_32: -2121403599
+      BrickOldOvergrown0026_1_350_33: -167895051
+      BrickOldOvergrown0026_1_350_34: -1946021241
+      BrickOldOvergrown0026_1_350_35: -1247789782
+      BrickOldOvergrown0026_1_350_36: 1602265451
+      BrickOldOvergrown0026_1_350_37: 1605531754
+      BrickOldOvergrown0026_1_350_38: -1404582750
+      BrickOldOvergrown0026_1_350_39: -612265219
+      BrickOldOvergrown0026_1_350_4: -1742687077
+      BrickOldOvergrown0026_1_350_40: -1901462333
+      BrickOldOvergrown0026_1_350_41: -758626777
+      BrickOldOvergrown0026_1_350_42: 1938891270
+      BrickOldOvergrown0026_1_350_43: 444051831
+      BrickOldOvergrown0026_1_350_44: -644652355
+      BrickOldOvergrown0026_1_350_45: 262670464
+      BrickOldOvergrown0026_1_350_46: -754228346
+      BrickOldOvergrown0026_1_350_47: 1280140262
+      BrickOldOvergrown0026_1_350_48: 1805969831
+      BrickOldOvergrown0026_1_350_49: -55283617
+      BrickOldOvergrown0026_1_350_5: 2046679101
+      BrickOldOvergrown0026_1_350_50: 2008933144
+      BrickOldOvergrown0026_1_350_51: 2055255385
+      BrickOldOvergrown0026_1_350_52: -1382225779
+      BrickOldOvergrown0026_1_350_53: 453001749
+      BrickOldOvergrown0026_1_350_54: -1558076533
+      BrickOldOvergrown0026_1_350_55: -1107658500
+      BrickOldOvergrown0026_1_350_56: 356041362
+      BrickOldOvergrown0026_1_350_57: 1070746916
+      BrickOldOvergrown0026_1_350_58: 569818092
+      BrickOldOvergrown0026_1_350_59: 294932049
+      BrickOldOvergrown0026_1_350_6: 2074752787
+      BrickOldOvergrown0026_1_350_60: -2019697946
+      BrickOldOvergrown0026_1_350_61: -1720638930
+      BrickOldOvergrown0026_1_350_62: 833155903
+      BrickOldOvergrown0026_1_350_63: 1779717593
+      BrickOldOvergrown0026_1_350_64: -1001648792
+      BrickOldOvergrown0026_1_350_65: -1060888620
+      BrickOldOvergrown0026_1_350_66: -1272216465
+      BrickOldOvergrown0026_1_350_67: -72625583
+      BrickOldOvergrown0026_1_350_68: 346395853
+      BrickOldOvergrown0026_1_350_69: -262068437
+      BrickOldOvergrown0026_1_350_7: -1865681187
+      BrickOldOvergrown0026_1_350_70: -1784910365
+      BrickOldOvergrown0026_1_350_71: 1527575049
+      BrickOldOvergrown0026_1_350_72: -1236289089
+      BrickOldOvergrown0026_1_350_73: 1620772992
+      BrickOldOvergrown0026_1_350_74: 1729946111
+      BrickOldOvergrown0026_1_350_75: -1657151868
+      BrickOldOvergrown0026_1_350_76: 1230651278
+      BrickOldOvergrown0026_1_350_77: 467412976
+      BrickOldOvergrown0026_1_350_78: 324985373
+      BrickOldOvergrown0026_1_350_79: 84242887
+      BrickOldOvergrown0026_1_350_8: 101729457
+      BrickOldOvergrown0026_1_350_80: 1002007614
+      BrickOldOvergrown0026_1_350_81: -2057636012
+      BrickOldOvergrown0026_1_350_82: 88278989
+      BrickOldOvergrown0026_1_350_83: 2009467933
+      BrickOldOvergrown0026_1_350_84: -208174854
+      BrickOldOvergrown0026_1_350_85: -937635679
+      BrickOldOvergrown0026_1_350_86: 1195633654
+      BrickOldOvergrown0026_1_350_87: -745372938
+      BrickOldOvergrown0026_1_350_88: -522593497
+      BrickOldOvergrown0026_1_350_89: 648364680
+      BrickOldOvergrown0026_1_350_9: 285869934
+      BrickOldOvergrown0026_1_350_90: -898786389
+      BrickOldOvergrown0026_1_350_91: -121398879
+      BrickOldOvergrown0026_1_350_92: 566010559
+      BrickOldOvergrown0026_1_350_93: 798619760
+      BrickOldOvergrown0026_1_350_94: 1654029740
+      BrickOldOvergrown0026_1_350_95: -1795582823
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

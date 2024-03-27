@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     //Fuerza de salto del jugador
     public float jumpForce;
 
-    //Variable para saber si el jugador está en el suelo
+    //Variable para saber si el jugador estï¿½ en el suelo
     private bool _isGrounded;
     //Referencia al punto por debajo del jugador que tomamos para detectar el suelo
     public Transform groundCheckPoint;
@@ -26,6 +26,9 @@ public class PlayerController : MonoBehaviour
 
     //Variable para saber hacia donde mira el jugador
     public bool seeLeft = true;
+    
+    //Variable para saber cuando el jugador puede interactuar con los objetos
+    public bool canInteract = false;
 
     //El rigidbody del jugador
     //Barrabaja indica que la variable es privada
@@ -37,11 +40,12 @@ public class PlayerController : MonoBehaviour
 
     public float bounceForce;
 
+
     // Start is called before the first frame update
     void Start()
     {
         //Inicializamos el Rigidbody del jugador
-        //GetComponent => Va al objeto donde está metido este código y busca el componente indicado
+        //GetComponent => Va al objeto donde estï¿½ metido este cï¿½digo y busca el componente indicado
         _theRB = GetComponent<Rigidbody2D>();
         //Inicializamos el Animator del jugador
         _anim = GetComponent<Animator>();
@@ -55,24 +59,24 @@ public class PlayerController : MonoBehaviour
         //El jugador se mueve a una velocidad dada en X, y la velocidad que ya tuviera en Y
         _theRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * moveSpeed, _theRB.velocity.y);
 
-        //La variable isGrounded se hará true siempre que el círculo físico que hemos creado detecte suelo, sino será falsa
-        //OverlapCircle(punto donde se genera el círculo, radio del círculo, layer a detectar)
+        //La variable isGrounded se harï¿½ true siempre que el cï¿½rculo fï¿½sico que hemos creado detecte suelo, sino serï¿½ falsa
+        //OverlapCircle(punto donde se genera el cï¿½rculo, radio del cï¿½rculo, layer a detectar)
         _isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsGround);
 
-        //Si pulsamos el botón de salto
+        //Si pulsamos el botï¿½n de salto
         if (Input.GetButtonDown("Jump"))
         {
-            //Si el jugador está en el suelo
+            //Si el jugador estï¿½ en el suelo
             if (_isGrounded)
             {
                 //El jugador salta, manteniendo su velocidad en X, y aplicamos la fuerza de salto
                 _theRB.velocity = new Vector2(_theRB.velocity.x, jumpForce);
-                //Llamamos al método del Singleton de AudioManager que reproduce el sonido
+                //Llamamos al mï¿½todo del Singleton de AudioManager que reproduce el sonido
                 AudioManager.audioMReference.PlaySFX(10);
                 //Una vez en el suelo, reactivamos la posibilidad de doble salto
                 _canDoubleJump = true;
             }
-            //Si el jugador no está en el suelo
+            //Si el jugador no estï¿½ en el suelo
             else
             {
                 //Si canDoubleJump es verdadera
@@ -86,11 +90,11 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        //Girar el Sprite del Jugador según su dirección de movimiento(velocidad)
+        //Girar el Sprite del Jugador segï¿½n su direcciï¿½n de movimiento(velocidad)
         //Si el jugador se mueve hacia la izquierda
         if(_theRB.velocity.x < 0)
         {
-            //No cambiamos la dirección del sprite
+            //No cambiamos la direcciï¿½n del sprite
             _theSR.flipX = false;
 
             seeLeft = true;
@@ -98,16 +102,16 @@ public class PlayerController : MonoBehaviour
         //Si el jugador se mueve hacia la derecha
         else if(_theRB.velocity.x > 0)
         {
-            //Cambiamos la dirección del sprite
+            //Cambiamos la direcciï¿½n del sprite
             _theSR.flipX = true;
 
             seeLeft = false;
         }
 
         //ANIMACIONES DEL JUGADOR
-        //Cambiamos el valor del parámetro del Animator "moveSpeed", dependiendo del valor en X de la velocidad del Rigidbody
-        _anim.SetFloat("moveSpeed", Mathf.Abs(_theRB.velocity.x));//Mathf.Abs hace que un valor negativo sea positivo, lo que nos permite que al movernos a la izquierda también se anime esta acción
-        //Cambiamos el valor del parámetro del Animator "isGrounded", dependiendo del valor de la booleana del código "_isGrounded"
+        //Cambiamos el valor del parï¿½metro del Animator "moveSpeed", dependiendo del valor en X de la velocidad del Rigidbody
+        _anim.SetFloat("moveSpeed", Mathf.Abs(_theRB.velocity.x));//Mathf.Abs hace que un valor negativo sea positivo, lo que nos permite que al movernos a la izquierda tambiï¿½n se anime esta acciï¿½n
+        //Cambiamos el valor del parï¿½metro del Animator "isGrounded", dependiendo del valor de la booleana del cï¿½digo "_isGrounded"
         _anim.SetBool("isGrounded", _isGrounded);
     }
 
@@ -115,11 +119,11 @@ public class PlayerController : MonoBehaviour
     {
         //Paralizamos al jugador en X y hacemos que salte en Y
         _theRB.velocity = new Vector2(0f, knockBackForce);
-        //Cambiamos el valor del parámetro del Animator "hurt"
+        //Cambiamos el valor del parï¿½metro del Animator "hurt"
         _anim.SetTrigger("Hurt");
     }
 
-    //Método para que el jugador rebote
+    //Mï¿½todo para que el jugador rebote
     public void Bounce()
     {
         //Impulsamos al jugador rebotando
